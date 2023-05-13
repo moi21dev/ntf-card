@@ -1,43 +1,46 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./style.css">
-  <title>Frontend Mentor | NFT preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  <main>
-    <div class="card">
-      <div class="ntf-info">
-        <img src="./images/image-equilibrium.jpg" alt="cube perfect balance">
-        <h1>Equilibrium #3429</h1>
-        <p>Our Equilibrium collection promotes <br>balance and calm.</p>
-      </div>
-      <div class="ntf-cost">
-        <h3><img src="images/icon-ethereum.svg" alt="ethereum picture">0.041 ETH</h3>
-        <h4><img src="images/icon-clock.svg" alt="clock icon">3 days left</h4>
-      </div>
-    <hr>
-    <div class="author">
-      <img src="images/image-avatar.png" alt="author profile picture">
-      <p>Creation of <span>Jules Wyvern</span></p>
-    </div>
-    </div>
-  </main>
-  <footer>
-    <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">moi21dev</a>.
-    </div>
-  </footer>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <!-- displays site properly based on user's device -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <link rel="stylesheet" href="./style.css">
+        <title>Frontend Mentor | NFT preview card component</title>
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+        <style>
+            .attribution { font-size: 11px; text-align: center; }
+            .attribution a { color: hsl(228, 45%, 44%); }
+        </style>
+    </head>
+    <body>
+        <main>
+            <div class="card">
+                <div class="nft-info">
+                    <div class="pictures">
+                        <img src="./images/image-equilibrium.jpg" alt="cube perfect balance" class="parent-img">
+                        <div class="overlay">
+                            <img src="./images/icon-view.svg" alt="overlay image">
+                        </div>
+                    </div>
+                    <h1>Equilibrium #3429</h1>
+                    <p>Our Equilibrium collection promotes <br>balance and calm.</p>
+                </div>
+                <div class="nft-price">
+                    <h3><img src="images/icon-ethereum.svg" alt="ethereum picture">0.041 ETH</h3>
+                    <h4><img src="images/icon-clock.svg" alt="clock icon">3 days left</h4>
+                </div>
+                <hr>
+                <div class="author">
+                    <img src="images/image-avatar.png" alt="author profile picture">
+                    <p>Creation of <span>Jules Wyvern</span></p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="attribution">
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+                <span> </span>Coded by <a href="https://github.com/moi21dev">moi21dev</a>
+            </div>
+        </footer>
+    </body>
 </html>
