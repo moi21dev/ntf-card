@@ -94,7 +94,7 @@ overflow: hidden;
 opacity: 0;
 }
 
-/* hover over nft card image */
+/* hover over first-image */
 .images-container:hover img{
 opacity: 1;
 transition: 0.3s ease-in-out;
