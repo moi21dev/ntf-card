@@ -26,6 +26,11 @@ body {
     border-radius: 10px;
 }
 
+.ntf-info img:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
 h1 {
     color: hsl(0, 0%, 100%);
     font-weight: 600;
@@ -98,4 +103,15 @@ footer {
 
 footer span {
     margin-left: 5px;
+}
+
+/* hover effects */
+
+h1:hover, .author span:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.ntf-info img:hover {
+    cursor: pointer;
 }
