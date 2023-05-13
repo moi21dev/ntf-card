@@ -61,6 +61,7 @@ To make an image overlay over another image, the structure in HTML should be lik
 
 </div>
 ```
+
 in CSS:
 ```css
 /* first-image and overlay image container */
@@ -85,26 +86,26 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-border-radius: 15px;
 width: 100%;
 overflow: hidden;
 }
 
+/* invisible overlay image*/
 .overlay img {
 opacity: 0;
 }
 
-/* hover over first-image */
+/* show overlay image */
 .images-container:hover img{
 opacity: 1;
 transition: 0.3s ease-in-out;
 }
 
+/* background between first-image and overlay image */
 .overlay:hover {
 cursor: pointer;
 background-color: hsla(178, 100%, 50%, 0.6);
 }
-
 ```
 
 ### Continued development
